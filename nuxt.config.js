@@ -34,17 +34,11 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
+    //'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    '@nuxtjs/auth-next',
+    //'@nuxtjs/axios',
+    //'@nuxtjs/auth-next',
   ],
-
-  bootstrapVue : {
-    config : {
-      //
-  }
-},
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
